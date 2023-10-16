@@ -1,0 +1,35 @@
+/* esto es un comentario en css*/
+
+
+
+h1 {
+	color: red;
+	background-color: black;
+}
+
+body {
+	background-color: turquoise;
+}
+
+pre {
+background-color: chocolate;
+
+}
+h2 {
+background-color: yellow;
+
+}
+mark {
+	color: lime;
+background-color: slateblue;
+ /* selector universal *  */
+}
+i {
+	color: aqua;
+	background-color: rgb(0, 0, 0);
+}
+
+time {
+color: yellow;
+background-color: rgb(0, 0, 0);
+}

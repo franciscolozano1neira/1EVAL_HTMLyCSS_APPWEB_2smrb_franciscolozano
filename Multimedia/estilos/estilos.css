@@ -1,0 +1,13 @@
+h1.especial {
+	color: rgb(7, 228, 162);
+	background-color: rgb(204, 15, 241);
+}
+h1.raro {
+ 	color: blueviolet;
+ 	background-color: yellow;
+}
+div{
+	border:turquoise 5px solid;
+	margin: 10px;
+    padding: 10px;
+}
