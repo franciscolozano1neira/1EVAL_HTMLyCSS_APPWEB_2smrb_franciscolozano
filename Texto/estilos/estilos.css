@@ -1,6 +1,11 @@
 /* esto es un comentario en css*/
 
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
+h1{
+	font-family: 'Nosifer', sans-serif;
+	font-size: 150%;
+}
 
 h1 {
 	color: red;
@@ -32,4 +37,14 @@ i {
 time {
 color: yellow;
 background-color: rgb(0, 0, 0);
+}
+
+@font-face {
+	font-family: "mystery";
+	src: url(../Fuentes/mystery-quest.ttf);
+}
+	
+#especial{
+	font-family: "mystery";
+	font-size: 150%;
 }
