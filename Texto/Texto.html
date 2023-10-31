@@ -9,16 +9,61 @@
 			color: aqua;
 			background-color: blueviolet;
 		}
-
-
+		a:link{
+			color: rgb(240, 236, 9);
+		}
+		a:visited{
+			color: red;
+		}
+		a:hover{
+			background-color: goldenrod;
+		}
+		a:active{
+			background-color: greenyellow;
+		}
+		q:lang(es){
+			quotes: '"' '"';
+			color: red;
+		}
+		pre::first-letter{
+			background-color: goldenrod;
+			color: greenyellow;
+			font-size: 50px;
+			font-family: monospace;
+			float: top;
+		}
+		div::first-line{
+			background-color:hotpink ;
+		}
+		div{
+			background-color: gold;
+		}
+		pre::before {
+			content: counter(cuenta-parrafos);
+			counter-increment: cuenta parrafos;
+			
+		}
 	</style>
 	<title>Poema</title>
 </head>
 <body>
+	<a href="https://www.mclibre.org/" target="_blank">apuntes</a>
+	<a href="https://www.office.com	" target="_blank">365 office</a>
+	<a href="https://github.com" target="_blank">github</a>
 	<!--esto es un comentario-->
 	<h1 style="color:rgb(205, 191, 214);">Ejercicio de texto</h1>
 	<h2 id="especial">Poema "Soneto XXIII" - Garcilaso de la Vega </h2>
 	<p >
+		<div>
+			<p>
+				Aproximaciones (chino: 始計): explora los cinco factores fundamentales, (el camino, las estaciones, el terreno, el liderazgo y la gestión) y los siete elementos que determinan los resultados de los enfrentamientos militares. Pensando, evaluando y comparando estos puntos, un comandante puede calcular sus posibilidades de victoria. La desviación habitual de estos cálculos asegurará el fallo por una acción incorrecta. El texto subraya que la guerra es un asunto muy grave para el Estado y que no debe comenzar sin la debida consideración.
+			
+			
+			
+			
+			
+			</p>
+		</div>
 		<pre id="especial">
 
 			En tanto que de rosa y azucena
@@ -40,7 +85,7 @@
 			por no hacer <i>mudanza</i> en su costumbre.
 			    <cite>Garcilaso de la Vega </cite>
 		</pre>
-	
+		<p>Platón<q>solo sé que no sé nada</q></p>
 		<center><time>10/10/1814</time><br>
 		H<sub>2</sub> + O<sub>2</sub> = 2H<sub>2</sub>O<br>
 		X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></center>
