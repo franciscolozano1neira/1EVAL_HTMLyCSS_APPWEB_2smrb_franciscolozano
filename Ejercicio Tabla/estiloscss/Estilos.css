@@ -1,0 +1,18 @@
+table{border: solid;
+	
+}
+tr:nth-child(2)(4)(6){
+	
+}
+
+thead{
+	background-color: red;
+	color: white;
+}
+
+	
+}
+tfoot{
+	background-color: red;
+	color: white;
+}
