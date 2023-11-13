@@ -1,14 +1,21 @@
 span.capital {
-	float: left;
+	float: top;
 	background-color: rgb(37, 203, 51)
-	color: white;
+	color:blueviolet
 	font-family: monospace;
 	font-size: 400%;
   }
-  p.DOS:: {
+
+  p.dos::first-letter {
 	float: left;
 	background-color: rgb(236, 236, 0)
 	color: rgb(0, 60, 255);
 	font-family: monospace;
 	font-size: 400%;
   }
+  
+img {
+	float: none;
+
+  }
+  
